@@ -21,7 +21,7 @@ class _SecondActivity extends State<SecondActivity>{
             'Get me back'
           ),
           onPressed: (){
-            Navigator.of(context).pop('Tap to see what you get from there!');
+            Navigator.of(context).pop();
           },
         ),
       ),
